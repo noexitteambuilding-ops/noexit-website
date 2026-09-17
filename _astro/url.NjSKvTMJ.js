@@ -1,0 +1,1 @@
+async function i(n,o){const e={...o,page:window.location.pathname,submittedAt:new Date().toISOString()};return console.info("[no-exit] form submission (no PUBLIC_FORM_ENDPOINT configured):",e),!0}const r="/noexit-website/",t=r.replace(/\/+$/,"");function s(n){return!n.startsWith("/")||t&&(n===t||n.startsWith(`${t}/`))?n:`${t}${n}`||"/"}export{s as h,i as s};

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /contattaci/grazie/
+Disallow: /newsletter/grazie/
+
+Sitemap: https://www.noexit.it/sitemap-index.xml
