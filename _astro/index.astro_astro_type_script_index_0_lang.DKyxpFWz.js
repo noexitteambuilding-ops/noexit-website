@@ -1,0 +1,1 @@
+import{P as t}from"./filters.CA13vEjY.js";const c=document.querySelector("[data-nx-cases-grid]"),e=document.querySelector("[data-nx-cases-more]");c&&e&&e.addEventListener("click",()=>{const r=Array.from(c.querySelectorAll("li[hidden]"));r.slice(0,t).forEach(d=>d.hidden=!1),r.length<=t&&(e.closest(".nx-cases-list__more").hidden=!0)});
